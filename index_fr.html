@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guide pratique du Fare Tiakiva</title>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -17,13 +16,13 @@
         header {
             text-align: center;
             margin-bottom: 20px;
-            background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url('images/tiare.jpg');
+            background-image: url('images/tiare.jpg'); /* Image de fond */
             background-size: cover; /* Recouvre tout l'espace */
             background-position: center; /* Centre l'image */
             padding: 40px; /* Ajoute de l'espace intérieur */
             border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-            color: #fff; /* Texte en blanc pour le contraste */
+            color: black; /* Texte en noir pour contraste */
         }
         h1 {
             font-family: 'Pacifico', cursive;
@@ -35,11 +34,11 @@
             background-color: rgba(255, 255, 255, 0.8); /* Fond blanc semi-transparent */
         }
         section {
-            margin: 20px 0;
+            margin-bottom: 30px;
             padding: 20px;
             background: white;
             border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             color: black; /* Texte en noir dans les sections */
         }
         h2 {
@@ -61,27 +60,10 @@
             margin-bottom: 15px;
         }
         img {
-            max-width: 100%;
-            height: auto;
             border-radius: 5px;
             transition: transform 0.2s; /* Effet de zoom */
         }
         img:hover {
-            transform: scale(1.05); /* Zoom au survol */
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-            font-weight: bold;
-            padding: 5px 10px; /* Ajoute un peu d'espace autour du texte */
-            border-radius: 5px; /* Arrondit les coins */
-            transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Transition douce */
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        a:hover {
-            background-color: #ff6f00; /* Fond orange au survol */
-            color: white; /* Texte blanc au survol */
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Ombre plus forte au survol */
             transform: scale(1.05); /* Zoom au survol */
         }
         .button {
@@ -100,45 +82,32 @@
         .button:hover {
             background-color: #0056b3; /* Couleur plus foncée au survol */
         }
-        @media (max-width: 768px) {
-            header {
-                padding: 20px;
-            }
-            section {
-                padding: 15px;
-            }
-            .button {
-                width: 100%;
-                padding: 12px; /* Augmente le padding pour le confort */
-            }
-        }
     </style>
 </head>
 <body>
 
 <header>
     <h1>Bienvenue au Fare Tiakiva</h1>
-    <p style="font-weight: bold; font-size: 30px;">Nous sommes heureux de vous accueillir !</p>
-    <img src="images/faretiakiva.jpg" alt="Description de l'image">
+    <p style="font-weight: bold; color: black; font-size: 30px;">Nous sommes heureux de vous accueillir !</p>
+    <img src="images/faretiakiva.jpg" alt="Description de l'image" style="width:100%; max-width:1200px;">
 </header>
 
 <section>
-    <h2>Recommandations</h2>
+    <h2>LIENS UTILES</h2>
     <ul>
         <li>
-            <i class="fas fa-map"></i> <!-- Icône de carte -->
-            Pour mieux connaître l'atoll de Rangiroa et profiter de mon séjour: 
+            ACTIVITES: 
             <a href="https://www.discover-rangiroa.com/#:~:text=Rangiroa,%20le%20plus%20grand%20atoll%20de" target="_blank">Cliquez Ici</a>
         </li>
         <li>
-            <i class="fas fa-utensils"></i> <!-- Icône de restaurant -->
-            Lien2 
+            RESTAURANTS:
             <a href="URL_DU_RESTAURANT_2" target="_blank">En savoir plus</a>
+            <img src="URL_DE_L_IMAGE_RESTAURANT_2" alt="image 2" style="width:100%; max-width:600px;">
         </li>
         <li>
-            <i class="fas fa-utensils"></i> <!-- Icône de restaurant -->
-            Lien3
+            COMMERCES
             <a href="URL_DU_RESTAURANT_3" target="_blank">En savoir plus</a>
+            <img src="URL_DE_L_IMAGE_RESTAURANT_3" alt="image 3" style="width:100%; max-width:600px;">
         </li>
     </ul>
 </section>
@@ -147,14 +116,6 @@
     <h2>Conseils Pratiques</h2>
     <ul>
         <li>Le bain de mer - Je vous conseille le bain à la mer vers la gauche, en face des maisons des gendarmes, car il y a un chenal avec du sable fin dans la mer, très agréable.</li>
-  <li>
-
-            <div style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;"> <!-- Flexbox pour centrer les images -->
-                <img src="images/baindemer.jpg" alt="Bain de mer" style="width: 25%; height: auto; border-radius: 5px;">
-                <img src="images/baindemer1.jpg" alt="Bain de mer" style="width: 25%; height: auto; border-radius: 5px;">
-                <img src="images/baindemer2.jpg" alt="Bain de mer" style="width: 25%; height: auto; border-radius: 5px;">
-            </div>
-        </li>
         <li>Animations - La pension Cécile à 2 pas propose le jeudi soir un buffet avec un show polynésien.</li>
         <li>Règles de la maison et recommandations - .</li>
     </ul>
@@ -162,10 +123,8 @@
 
 <footer>
     <p>Merci de votre séjour ! N'hésitez pas à me contacter pour toute question.</p>
-    <a href="index.html" class="button"><i class="fas fa-home"></i> Retour au Menu Principal</a>
+    <a href="index.html" class="button">Retour au Menu Principal</a>
 </footer>
 
 </body>
 </html>
-```
-
