@@ -1,166 +1,188 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les plantes de Polynésie</title>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #e8f5e9;
-            color: #2e7d32;
-        }
-        header {
-            text-align: center;
-            padding: 40px;
-            background-color: #a5d6a7;
-            border-radius: 10px;
-        }
-        h1 {
-            font-family: 'Pacifico', cursive;
-            font-size: 2.5em;
-            color: #1b5e20;
-        }
-        section {
-            margin: 20px auto;
-            padding: 20px;
-            max-width: 800px;
-            background: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        h2 {
-            color: #388e3c;
-        }
-        p {
-            line-height: 1.6;
-        }
-        img {
-            max-width: 100%;
-            border-radius: 8px;
-            margin: 10px 0;
-        }
-        a.plante-link {
-            display: block;
-            margin-top: 10px;
-            font-weight: bold;
-            color: #1b5e20;
-            text-decoration: none;
-        }
-        a.plante-link:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Les plantes de Polynésie</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #e8f5e9;
+      color: #2e7d32;
+    }
+    header {
+      text-align: center;
+      padding: 40px;
+      background-color: #a5d6a7;
+      border-radius: 10px;
+    }
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 2.5em;
+      color: #1b5e20;
+    }
+    section {
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 800px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #388e3c;
+    }
+    p {
+      line-height: 1.6;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin: 10px 0;
+    }
+    a.plante-link {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+      color: #1b5e20;
+      text-decoration: none;
+    }
+    a.plante-link:hover {
+      text-decoration: underline;
+    }
+    .poeme-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-weight: bold;
+    }
+    .poeme-table td {
+      padding: 6px 8px;
+      vertical-align: top;
+    }
+    @media screen and (max-width: 768px) {
+      h1 {
+        font-size: 2em;
+      }
+      header {
+        padding: 20px;
+      }
+      section {
+        padding: 15px;
+        margin: 15px auto;
+      }
+      .poeme-table, .poeme-table tr, .poeme-table td {
+        display: block;
+        width: 100%;
+      }
+      .poeme-table td::before {
+        content: attr(data-label);
+        font-weight: normal;
+        color: #1b5e20;
+        display: block;
+        margin-bottom: 2px;
+      }
+    }
+  </style>
 </head>
 <body>
 
 <header>
-    <header>
-  <header>
   <h1>Les plantes et arbres de Polynésie</h1>
   <p>Découvrez la richesse botanique du Fenua 🌺</p>
 
-  <div style="max-width: 800px; margin: auto; text-align: left; line-height: 1.6; font-size: 1.05em; white-space: pre-wrap;">
+  <div style="max-width: 800px; margin: auto; text-align: left; line-height: 1.6; font-size: 1.05em;">
+    <p>Le Fare Tiakiva est heureux de vous présenter le projet d’élèves de 3ème du collège de Arue : « VEVO » ou l’écho des arbres à travers la voix des enfants.</p>
+    <p>Ce projet pédagogique met en lumière les recherches scientifiques, culturelles et artistiques sur quelques végétaux de Polynésie. Les enfants partagent avec vous leurs connaissances mais surtout perpétuent les liens entre la terre, les végétaux et les hommes.</p>
+    <p>En Polynésie, à la naissance d’un enfant, nous enterrons le placenta « Pu Fenua » et nous plantons un arbre fruitier qui sera nourri par le placenta comme le fut l’enfant dans le ventre de sa mère. Le Polynésien est ainsi rattaché à sa terre et se rappellera toujours d’où il vient, l’arbre donnera des fruits dont on pourra se nourrir ou qui soignera. La terre est déjà associée au terme « Pu Fenua » comme si la femme portait déjà sa terre en elle.</p>
+    <p>Des QR codes dans le jardin vous permettront de découvrir leur travail sur quelques espèces présentes sur la propriété. Les voix des enfants vous accompagneront sur la voie des végétaux comme un écho des arbres eux-mêmes pour les connaître, les respecter et les préserver.</p>
 
-Le Fare Tiakiva est heureux de vous présenter le projet d’élèves de 3ème du collège de Arue : « VEVO » ou l’écho des arbres à travers la voix des enfants. 
-Ce projet pédagogique met en lumière les recherches scientifiques, culturelles et artistiques sur quelques végétaux de Polynésie, les enfants partagent avec vous leurs connaissances mais surtout perpétuent les liens entre la terre, les végétaux et les hommes. En Polynésie, à la naissance d’un enfant, nous enterrons le placenta « Pu Fenua » et nous plantons un arbre fruitier qui sera nourri par le placenta comme le fut l’enfant dans le ventre de sa mère. Le Polynésien est ainsi rattaché à sa terre et se rappellera toujours d’où il vient, l’arbre donnera des fruits dont on pourra se nourrir ou qui soignera. La terre est déjà associée au terme « Pu Fenua » comme si la femme portait déjà sa terre en elle.
-Des QR codes dans le jardin vous permettront de découvrir leur travail sur quelques espèces présentes sur la propriété. Les voix des enfants vous accompagneront sur la voie des végétaux comme un écho des arbres eux-mêmes pour les connaître, les respecter et les préserver.
+    <div style="background-color:#f1f8e9; border-left: 5px solid #2e7d32; padding: 20px; margin: 30px 0; border-radius: 8px;">
+      <table class="poeme-table">
+        <tbody>
+          <tr>
+            <td data-label="Tahitien">Te here o to ù âià i tavai ia ù mai te hii mai</td>
+            <td data-label="Français">« Oh, l’amour de mon pays ! dont le flot sans relâche</td>
+          </tr>
+          <tr>
+            <td>Ia âpiti mai i to ù tino tahuti</td>
+            <td>A baigné ma jeunesse en son âge le plus tendre ;</td>
+          </tr>
+          <tr>
+            <td>E ia vai a, e ia vai a</td>
+            <td>Qu’il oigne encore mon corps tout mortel</td>
+          </tr>
+          <tr>
+            <td>E ia vai a, e ia vai noa atu a</td>
+            <td>Et vive cet amour, vive ! Vive !</td>
+          </tr>
+          <tr>
+            <td>Ei para haamaitai i to ù âià tumu e,</td>
+            <td>Vive encore et toujours, qu’il vive et abreuve ma terre natale,</td>
+          </tr>
+          <tr>
+            <td>Ia ruperupe e ia hotu te huaai</td>
+            <td>Pour que fleurissent en leur essaim,</td>
+          </tr>
+          <tr>
+            <td>O toù âià.</td>
+            <td>Les enfants de ce sol, enfants de mon pays.»</td>
+          </tr>
+        </tbody>
+      </table>
+      <div style="text-align: right; margin-top: 10px; font-weight: bold;">Henri Hiro</div>
+    </div>
 
-   <div style="background-color:#f1f8e9; border-left: 5px solid #2e7d32; padding: 20px; margin: 30px 0; border-radius: 8px;">
-  <table style="width:100%; border-collapse: collapse; font-weight: bold;">
-    <tbody>
-      <tr>
-        <td style="padding: 4px;">Te here o to ù âià i tavai ia ù mai te hii mai</td>
-        <td style="padding: 4px;">« Oh, l’amour de mon pays ! dont le flot sans relâche</td>
-      </tr>
-      <tr>
-        <td style="padding: 4px;">Ia âpiti mai i to ù tino tahuti</td>
-        <td style="padding: 4px;">A baigné ma jeunesse en son âge le plus tendre ;</td>
-      </tr>
-      <tr>
-        <td style="padding: 4px;">E ia vai a, e ia vai a</td>
-        <td style="padding: 4px;">Qu’il oigne encore mon corps tout mortel</td>
-      </tr>
-      <tr>
-        <td style="padding: 4px;">E ia vai a, e ia vai noa atu a</td>
-        <td style="padding: 4px;">Et vive cet amour, vive ! Vive !</td>
-      </tr>
-      <tr>
-        <td style="padding: 4px;">Ei para haamaitai i to ù âià tumu e,</td>
-        <td style="padding: 4px;">Vive encore et toujours, qu’il vive et abreuve ma terre natale,</td>
-      </tr>
-      <tr>
-        <td style="padding: 4px;">Ia ruperupe e ia hotu te huaai</td>
-        <td style="padding: 4px;">Pour que fleurissent en leur essaim,</td>
-      </tr>
-      <tr>
-        <td style="padding: 4px;">O toù âià.</td>
-        <td style="padding: 4px;">Les enfants de ce sol, enfants de mon pays.»</td>
-      </tr>
-    </tbody>
-  </table>
-  <div style="text-align: right; margin-top: 10px; font-weight: bold;">Henri Hiro</div>
-</div>
-				
-</strong>
-</div>
-      
-    Le Fare Tiakiva a participé à un projet pédagogique « Vevo », l’écho : 
-l’écho des arbres à travers la voix des enfants. Des élèves d’une classe de 3ème du collège de Arue ont  effectué des recherches sur les végétaux présents sur la propriété. Les objectifs étaient d’approfondir leurs connaissances scientifiques, culturelles et artistiques  sur quelques  végétaux de Polynésie et de partager cela avec vous mais aussi de perpétuer les liens qu’ont toujours entretenus les polynésiens avec le monde végétal. La tradition de planter un arbre fruitier et d’y enterrer le placenta lors de la naissance de l’enfant est toujours très présente en Polynésie. Le Fare Tiakiva est heureux de vous faire découvrir la voie des végétaux à travers la voix des enfants de Polynésie, bon voyage !
+    <p>Le Fare Tiakiva a participé à un projet pédagogique « Vevo », l’écho : l’écho des arbres à travers la voix des enfants. Des élèves d’une classe de 3ème du collège de Arue ont effectué des recherches sur les végétaux présents sur la propriété. Les objectifs étaient d’approfondir leurs connaissances scientifiques, culturelles et artistiques sur quelques végétaux de Polynésie et de partager cela avec vous mais aussi de perpétuer les liens qu’ont toujours entretenus les Polynésiens avec le monde végétal. La tradition de planter un arbre fruitier et d’y enterrer le placenta lors de la naissance de l’enfant est toujours très présente en Polynésie. Le Fare Tiakiva est heureux de vous faire découvrir la voie des végétaux à travers la voix des enfants de Polynésie, bon voyage !</p>
   </div>
 </header>
 
-</header>
-
-</header>
-
 <section>
-    <h2>Tiare Tahiti (Gardenia taitensis)</h2>
-    <img src="images/tiare_tahiti.jpg" alt="Tiare Tahiti">
-    <p>Emblème de la Polynésie française, cette fleur blanche très parfumée est souvent utilisée pour confectionner des colliers de bienvenue (hei) et dans les produits cosmétiques locaux.</p>
-    <a class="plante-link" href="tiarev2.html">→ En savoir plus sur le Tiare Tahiti</a>
+  <h2>Tiare Tahiti (Gardenia taitensis)</h2>
+  <img src="images/tiare_tahiti.jpg" alt="Tiare Tahiti">
+  <p>Emblème de la Polynésie française, cette fleur blanche très parfumée est souvent utilisée pour confectionner des colliers de bienvenue (hei) et dans les produits cosmétiques locaux.</p>
+  <a class="plante-link" href="tiarev2.html">→ En savoir plus sur le Tiare Tahiti</a>
 </section>
 
 <section>
-    <h2>Tamanu (Calophyllum inophyllum)</h2>
-    <img src="images/tamanu.jpg" alt="Arbre Tamanu">
-    <p>Le tamanu est un arbre sacré pour les Polynésiens. Son huile extraite des noix est très réputée pour ses vertus médicinales et cicatrisantes.</p>
-    <a class="plante-link" href="tamanu.html">→ En savoir plus sur le Tamanu</a>
+  <h2>Tamanu (Calophyllum inophyllum)</h2>
+  <img src="images/tamanu.jpg" alt="Arbre Tamanu">
+  <p>Le tamanu est un arbre sacré pour les Polynésiens. Son huile extraite des noix est très réputée pour ses vertus médicinales et cicatrisantes.</p>
+  <a class="plante-link" href="tamanu.html">→ En savoir plus sur le Tamanu</a>
 </section>
 
 <section>
-    <h2>Cocotier (Cocos nucifera)</h2>
-    <img src="images/cocotier.jpg" alt="Cocotier">
-    <p>Le cocotier est l'arbre de vie du Pacifique. Il fournit de l'eau, de la nourriture, des matériaux pour la construction et même des produits artisanaux.</p>
-    <a class="plante-link" href="cocotier.html">→ En savoir plus sur le Cocotier</a>
+  <h2>Cocotier (Cocos nucifera)</h2>
+  <img src="images/cocotier.jpg" alt="Cocotier">
+  <p>Le cocotier est l'arbre de vie du Pacifique. Il fournit de l'eau, de la nourriture, des matériaux pour la construction et même des produits artisanaux.</p>
+  <a class="plante-link" href="cocotier.html">→ En savoir plus sur le Cocotier</a>
 </section>
 
 <section>
-    <h2>Kahaia (Guettarda speciosa)</h2>
-    <img src="images/kahaia.jpg" alt="Kahaia - Guettarda speciosa">
-    <p>Arbuste très commun en bord de mer,  faux figuier du bord de mer, est une espèce de petit arbre de la famille des Rubiaceae..</p>
-    <a class="plante-link" href="kahaia.html">→ En savoir plus sur le kahaia</a>
+  <h2>Kahaia (Guettarda speciosa)</h2>
+  <img src="images/kahaia.jpg" alt="Kahaia - Guettarda speciosa">
+  <p>Arbuste très commun en bord de mer, le Kahaia est une espèce de petit arbre de la famille des Rubiaceae.</p>
+  <a class="plante-link" href="kahaia.html">→ En savoir plus sur le Kahaia</a>
 </section>
 
 <section>
-    <h2>Mikimiki (Coprosma spp.)</h2>
-    <img src="images/mikimiki.jpg" alt="Mikimiki - Coprosma">
-    <p>Le Mikimiki est un arbuste indigène de la Polynésie, connu pour ses petites feuilles brillantes et ses baies décoratives. Il est souvent utilisé pour la restauration écologique et joue un rôle dans la biodiversité locale.</p>
-    <a class="plante-link" href="mikimiki.html">→ En savoir plus sur le Mikimiki</a>
+  <h2>Mikimiki (Coprosma spp.)</h2>
+  <img src="images/mikimiki.jpg" alt="Mikimiki - Coprosma">
+  <p>Le Mikimiki est un arbuste indigène de la Polynésie, connu pour ses petites feuilles brillantes et ses baies décoratives. Il est souvent utilisé pour la restauration écologique et joue un rôle dans la biodiversité locale.</p>
+  <a class="plante-link" href="mikimiki.html">→ En savoir plus sur le Mikimiki</a>
 </section>
 
 <section>
-    <h2>Tohonu (Cordia subcordata)</h2>
-    <img src="images/tohonu.jpg" alt="Tohonu - Cordia subcordata">
-    <p>Le Tohonu, également appelé kanawa ou tou, est un petit arbre côtier reconnu pour son bois résistant utilisé en menuiserie traditionnelle. Il porte des fleurs orangées éclatantes et participe à la fixation du littoral.</p>
-    <a class="plante-link" href="tohonu.html">→ En savoir plus sur le Tohonu</a>
+  <h2>Tohonu (Cordia subcordata)</h2>
+  <img src="images/tohonu.jpg" alt="Tohonu - Cordia subcordata">
+  <p>Le Tohonu, également appelé kanawa ou tou, est un petit arbre côtier reconnu pour son bois résistant utilisé en menuiserie traditionnelle. Il porte des fleurs orangées éclatantes et participe à la fixation du littoral.</p>
+  <a class="plante-link" href="tohonu.html">→ En savoir plus sur le Tohonu</a>
 </section>
 
 <footer style="text-align:center; margin-top:40px;">
-    <a href="index.html" style="text-decoration:none; color:#2e7d32; font-weight:bold;">← Retour à l'accueil</a>
+  <a href="index.html" style="text-decoration:none; color:#2e7d32; font-weight:bold;">← Retour à l'accueil</a>
 </footer>
 
 </body>
