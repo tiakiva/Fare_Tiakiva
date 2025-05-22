@@ -26,6 +26,10 @@
       color: #ff6f00;
       text-align: center;
     }
+    h2 {
+      color: #007bff;
+      margin-top: 40px;
+    }
     p {
       font-size: 1.1em;
       line-height: 1.6;
@@ -71,6 +75,12 @@
     .resources a:hover {
       text-decoration: underline;
     }
+    figcaption {
+      text-align: center;
+      font-style: italic;
+      font-size: 0.95em;
+      margin-top: 5px;
+    }
   </style>
 </head>
 <body>
@@ -83,25 +93,31 @@
     reconnue pour sa beauté, son parfum et ses usages traditionnels en cosmétique et médecine douce.
   </p>
 
- 
-
-  <!-- Section supplémentaire : autres ressources -->
+  <!-- Section PDF -->
   <div class="resources">
-  <h2>FICHES ET DESCRIPTIONS :</h2>
+    <h2>📄 Fiches et descriptions</h2>
+    <a href="les-plantes/Tiare.pdf" target="_blank" aria-label="Fiche PDF sur la culture de la Tiare">📄 Culture & histoire de la Tiare – Auteurs</a>
+    <a href="les-plantes/Tiare2.pdf" target="_blank" aria-label="Fiche PDF sur les usages médicinaux">📄 Usages médicinaux et cosmétiques – Auteurs</a>
+  </div>
 
-  <a href="Les plantes/Tiare.pdf" target="_blank">📄 Culture & histoire de la Tiare – Auteurs</a>
-  <a href="Les plantes/Tiare2.pdf" target="_blank">📄 Usages médicinaux et cosmétiques – Auteurs</a>
+  <!-- Vidéos -->
+  <h2>🎥 Vidéos</h2>
 
-  <video controls>
-    <source src="videos/tiare.mp4" type="video/mp4">
-    Votre navigateur ne supporte pas cette vidéo.
-  </video>
+  <figure>
+    <video controls>
+      <source src="videos/tiare.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas cette vidéo.
+    </video>
+    <figcaption>Présentation générale de la Tiare Tahiti</figcaption>
+  </figure>
 
-  <video controls>
-    <source src="videos/tiaretahiti.mp4" type="video/mp4">
-    Votre navigateur ne supporte pas cette vidéo.
-  </video>
-</div>
+  <figure>
+    <video controls>
+      <source src="videos/tiaretahiti.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas cette vidéo.
+    </video>
+    <figcaption>La Tiare dans la tradition et les chants</figcaption>
+  </figure>
 
   <!-- Retour -->
   <div style="text-align: center;">
