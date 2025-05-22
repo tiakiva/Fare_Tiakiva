@@ -22,14 +22,26 @@
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
     h1 {
-      <div class="gallery">
-  <img src="images/tiare1.jpg" alt="Tiare Tahiti 1">
-  <img src="images/tiare2.jpg" alt="Tiare Tahiti 2">
-  <img src="images/tiare3.jpg" alt="Tiare Tahiti 3">
-</div>
       font-family: 'Pacifico', cursive;
       color: #ff6f00;
       text-align: center;
+      margin-bottom: 10px;
+    }
+    .gallery {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding: 10px 0 30px;
+      justify-content: center;
+    }
+    .gallery img {
+      height: 100px;
+      border-radius: 10px;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
     }
     h2 {
       color: #007bff;
@@ -92,6 +104,13 @@
 
 <div class="container">
   <h1>Tiare Tahiti</h1>
+
+  <!-- Galerie d'images -->
+  <div class="gallery">
+    <img src="images/tiare1.jpg" alt="Tiare Tahiti 1">
+    <img src="images/tiare2.jpg" alt="Tiare Tahiti 2">
+    <img src="images/tiare3.jpg" alt="Tiare Tahiti 3">
+  </div>
 
   <p>
     La Tiare Tahiti (<em>Gardenia taitensis</em>) est la fleur emblématique de la Polynésie française,
