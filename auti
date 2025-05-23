@@ -1,1 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auti – Fare Tiakiva</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f3e5f5;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            background-image: url('images/auti.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            color: black;
+        }
+        h1 {
+            font-family: 'Pacifico', cursive;
+            color: #8e24aa;
+            background-color: rgba(255, 255, 255, 0.85);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        .auteurs {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333;
+            margin-top: 10px;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 8px;
+        }
+        section {
+            margin-top: 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        a {
+            color: #8e24aa;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .button {
+            display: inline-block;
+            background-color: #8e24aa;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #6a1b9a;
+        }
+        video {
+            border-radius: 10px;
+            margin-top: 20px;
+            width: 100%;
+            max-width: 720px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Auti</h1>
+    <p class="auteurs">Par Vaitea, Raimana et Hereata</p>
+</header>
+
+<section>
+    <h2>🌿 Plante sacrée et ornementale</h2>
+
+    <p><strong>Nom scientifique :</strong> <em>Cordyline fruticosa</em></p>
+    <p><strong>Famille :</strong> Asparagaceae</p>
+    <p><strong>Origine :</strong> Asie du Sud-Est, largement diffusée en Polynésie</p>
+
+    <h3>Description botanique</h3>
+    <ul>
+        <li>Type : Plante tropicale vivace</li>
+        <li>Hauteur : 1 à 3 mètres</li>
+        <li>Feuilles : Longues, rubanées, de couleur verte, pourpre ou panachée</li>
+        <li>Fleurs : Petites, roses ou violettes</li>
+        <li>Fruits : Petites baies rouges</li>
+    </ul>
+
+    <h3>Usages traditionnels</h3>
+    <ul>
+        <li><strong>Rituels religieux :</strong> utilisée dans les cérémonies sacrées, symbolise la protection</li>
+        <li><strong>Ornement :</strong> plante décorative dans les jardins et les temples</li>
+        <li><strong>Médecine traditionnelle :</strong> décoctions de feuilles pour la fièvre, les douleurs</li>
+        <li><strong>Utilisation pratique :</strong> feuilles utilisées pour emballer les aliments, fabriquer des jupes ou des toits</li>
+    </ul>
+
+    <h3>🔮 Symbole spirituel et protecteur</h3>
+
+    <blockquote style="font-style: italic; background-color: #f9f9f9; padding: 15px; border-left: 5px solid #8e24aa; border-radius: 5px; line-height: 1.6; white-space: pre-wrap;">
+Feuille d'Auti, feuille sacrée,  
+Tu veilles sur nos maisons et nos âmes.  
+Plante des anciens, tu protèges du mal,  
+Guide des esprits, lien entre ciel et terre.
+    </blockquote>
+
+    <h3>🎥 Vidéo</h3>
+    <video controls>
+        <source src="videos/auti.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la vidéo.
+    </video>
+
+    <div style="margin-top: 20px;">
+        <a href="lechemindesplantes.html" class="button">← Retour au menu des plantes</a>
+    </div>
+</section>
+
+</body>
+</html>
 
