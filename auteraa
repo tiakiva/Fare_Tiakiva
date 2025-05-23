@@ -1,1 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auteraa – Fare Tiakiva</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #fff3e0;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            background-image: url('images/auteraa.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            color: black;
+        }
+        h1 {
+            font-family: 'Pacifico', cursive;
+            color: #ef6c00;
+            background-color: rgba(255, 255, 255, 0.85);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        .auteurs {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333;
+            margin-top: 10px;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 8px;
+        }
+        section {
+            margin-top: 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        a {
+            color: #ef6c00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .button {
+            display: inline-block;
+            background-color: #ef6c00;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #d84315;
+        }
+        video {
+            border-radius: 10px;
+            margin-top: 20px;
+            width: 100%;
+            max-width: 720px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Auteraa</h1>
+    <p class="auteurs">Par Reva, Taina et Herenui</p>
+</header>
+
+<section>
+    <h2>🍃 Feuille médicinale de tradition</h2>
+
+    <p><strong>Nom scientifique :</strong> <em>Casuarina equisetifolia</em> (ou autre selon le contexte local)</p>
+    <p><strong>Famille :</strong> Casuarinaceae</p>
+    <p><strong>Origine :</strong> Zones tropicales du Pacifique et de l'Asie</p>
+
+    <h3>Description botanique</h3>
+    <ul>
+        <li>Type : Arbre sempervirent ou grand arbuste</li>
+        <li>Hauteur : Jusqu’à 15–20 mètres</li>
+        <li>Feuillage : Feuilles réduites, formant des rameaux fins ressemblant à des aiguilles</li>
+        <li>Fleurs : Discrètes, regroupées en épis</li>
+        <li>Fruits : Petits cônes ligneux contenant des graines ailées</li>
+    </ul>
+
+    <h3>Utilisations traditionnelles</h3>
+    <ul>
+        <li><strong>Médecine traditionnelle :</strong> infusion des feuilles contre le rhume, toux, fièvre</li>
+        <li><strong>Spiritualité :</strong> purification et protection contre les énergies négatives</li>
+        <li><strong>Écorce :</strong> utilisée comme antiseptique naturel</li>
+        <li><strong>Écologie :</strong> arbre fixateur de sol, résistant aux embruns</li>
+    </ul>
+
+    <h3>🌺 Une plante de soin et de purification</h3>
+
+    <blockquote style="font-style: italic; background-color: #f9f9f9; padding: 15px; border-left: 5px solid #ef6c00; border-radius: 5px; line-height: 1.6; white-space: pre-wrap;">
+Auteraa des anciens,  
+Par toi s’effacent les douleurs  
+Par toi s’apaise l’esprit  
+Tu murmures au vent des guérisons  
+Et dans l’eau chaude, tu deviens remède.
+    </blockquote>
+
+    <h3>🎥 Vidéo</h3>
+    <video controls>
+        <source src="videos/auteraa.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la vidéo.
+    </video>
+
+    <div style="margin-top: 20px;">
+        <a href="lechemindesplantes.html" class="button">← Retour au menu des plantes</a>
+    </div>
+</section>
+
+</body>
+</html>
 
