@@ -71,11 +71,11 @@
         .button:hover {
             background-color: #6a1b9a;
         }
-        video {
-            border-radius: 10px;
+        audio {
             margin-top: 20px;
             width: 100%;
             max-width: 720px;
+            border-radius: 10px;
         }
         blockquote {
             font-style: italic;
@@ -135,17 +135,27 @@ Sa racine très sucrée, cuite dans de grands fours pendant deux à cinq jours, 
 À la fin du XVIIIe siècle, ce fut la première plante à être distillée pour faire de l’alcool.
     </blockquote>
 
-
-    <h3>🎥 Vidéo</h3>
-    <video controls>
-        <source src="audios\auti.M4A" type="video/mp4">
-        Votre navigateur ne supporte pas la vidéo.
-    </video>
+    <h3>🔊 Audio</h3>
+    <audio controls id="audioAuti">
+        <source src="audios/auti.M4A" type="audio/mp4">
+        Votre navigateur ne supporte pas l'audio.
+    </audio>
 
     <div style="margin-top: 20px;">
         <a href="lavoiedesarbres.html" class="button">← Retour au menu des plantes</a>
     </div>
 </section>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        const audio = document.getElementById('audioAuti');
+        if (audio) {
+            audio.play().catch(err => {
+                console.log("Lecture automatique bloquée par le navigateur :", err);
+            });
+        }
+    });
+</script>
 
 </body>
 </html>
