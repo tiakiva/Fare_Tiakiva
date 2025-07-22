@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auti – Fare Tiakiva</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f3e5f5;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            background-image: url('images/auti.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            color: black;
+        }
+        h1 {
+            font-family: 'Pacifico', cursive;
+            color: #8e24aa;
+            background-color: rgba(255, 255, 255, 0.85);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        .auteurs {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333;
+            margin-top: 10px;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 8px;
+        }
+        section {
+            margin-top: 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        a {
+            color: #8e24aa;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .button {
+            display: inline-block;
+            background-color: #8e24aa;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #6a1b9a;
+        }
+        audio {
+            margin-top: 20px;
+            width: 100%;
+            max-width: 720px;
+            border-radius: 10px;
+        }
+        blockquote {
+            font-style: italic;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-left: 5px solid #8e24aa;
+            border-radius: 5px;
+            line-height: 1.6;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Auti</h1>
+    <p class="auteurs"></p>
+</header>
+
+<section>
+    <h2>🌿 Sacred and Ornamental Plant</h2>
+
+    <p><strong>Scientific Name:</strong> <em>Cordyline fruticosa</em></p>
+    <p><strong>Family:</strong> Asparagaceae</p>
+    <p><strong>Origin:</strong> Southeast Asia, widely spread in Polynesia</p>
+
+    <h3>Botanical Description</h3>
+    <ul>
+        <li>Type: Perennial tropical plant</li>
+        <li>Height: 1 to 3 meters</li>
+        <li>Leaves: Long, ribbon-like, green, purple or variegated</li>
+        <li>Flowers: Small, pink or purple</li>
+        <li>Fruits: Small red berries</li>
+    </ul>
+
+    <h3>Traditional Uses</h3>
+    <ul>
+        <li><strong>Religious rituals:</strong> used in sacred ceremonies, symbolizes protection</li>
+        <li><strong>Ornament:</strong> decorative plant in gardens and temples</li>
+        <li><strong>Traditional medicine:</strong> leaf decoctions for fever and pain</li>
+        <li><strong>Practical use:</strong> leaves used to wrap food, make skirts or roofs</li>
+    </ul>
+
+    <h3>📜 Explanatory Text</h3>
+    <blockquote>
+The leaves of the "ti" shrub (Cordyline fruticosa), among the most sacred species, were worn by orators, warriors, and priests when performing their duties.  
+On the "Marae", they adorned priests, orators, and warriors during ceremonies.
+
+According to tradition, the god Ta’aroa created the "ti", now called "auti".  
+A sacred plant, it was used to ward off evil forces.  
+The "ti" is believed to originate from the bones of the hip and tibia, according to Polynesian beliefs.
+
+Originating from Indo-Malaysia, this plant was domesticated and widely spread across the Pacific, taking many forms.  
+In Polynesia, it had several uses: its medicinal virtues were part of several "ra’au" (remedies) and its branches were used to set broken bones.
+
+Its very sweet root, cooked in large ovens for two to five days, provided nourishment during times of famine or the austral winter.  
+At the end of the 18th century, it was the first plant to be distilled to make alcohol.
+    </blockquote>
+
+    <!-- 🎵 Audio -->
+<audio autoplay loop controls style="position: fixed; bottom: 20px; right: 20px; z-index: 999; box-shadow: 0 0 8px rgba(0,0,0,0.3); border-radius: 6px;">
+  <source src="audios\auti.m4a" type="audio/mp4">
+  Your browser does not support HTML5 audio.
+</audio>
+
+    <div style="margin-top: 20px;">
+        <a href="lavoiedesarbres.html" class="button">← Back to the plant menu</a>
+    </div>
+</section>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        const audio = document.getElementById('audioAuti');
+        if (audio) {
+            audio.play().catch(err => {
+                console.log("Autoplay blocked by browser:", err);
+            });
+        }
+    });
+</script>
+
+</body>
+</html>
